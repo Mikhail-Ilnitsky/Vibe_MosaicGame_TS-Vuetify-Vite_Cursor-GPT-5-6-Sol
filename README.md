@@ -2,7 +2,16 @@
 
 Адаптивная браузерная игра, в которой изображение нужно собрать из перемешанных квадратных фрагментов. Это чистое SPA без бэкенда и базы данных.
 
-**Демо:** [GitHub Pages](https://mikhail-ilnitsky.github.io/Vibe_MosaicGame_TS-Vuetify-Vite_Cursor-GPT-5-6-Sol/)
+**Демо:** [mikhail-ilnitsky.github.io/Vibe_MosaicGame_TS-Vuetify-Vite_Cursor-GPT-5-6-Sol](https://mikhail-ilnitsky.github.io/Vibe_MosaicGame_TS-Vuetify-Vite_Cursor-GPT-5-6-Sol/)
+
+## Особенности
+
+Собрано по подробному промпту с помощью **GPT-5.6-Sol-Medium**
+
+Начальный промпт (с первого раза достаточно хорошо, дальше не правил):
+- 15 запусков (автоматически) GPT-5.6-Sol-Medium = 1787 Ktoken
+
+Всего в сумме: 1787 Ktoken = 1.8 Mtoken
 
 ## Возможности
 
@@ -17,8 +26,8 @@
 
 | Технология | Версия |
 | --- | --- |
-| Vue | 3.5.42 |
 | TypeScript | 5.9.3 |
+| Vue | 3.5.42 |
 | Vuetify | 3.13.4 |
 | Vite | 8.3.0 |
 
@@ -26,7 +35,7 @@
 
 ## Происхождение проекта
 
-Исходная версия сгенерирована в Cursor по [техническому заданию](prompts/INITIAL.md). Краткое описание архитектуры и ключевых решений находится в [`.cursor/CONTEXT.md`](.cursor/CONTEXT.md).
+Исходная версия сгенерирована в Cursor по техническому заданию (см. [`prompts/INITIAL.md`](prompts/INITIAL.md)). Краткое описание архитектуры и ключевых решений находится в [`.cursor/CONTEXT.md`](.cursor/CONTEXT.md).
 
 ## Запуск
 
